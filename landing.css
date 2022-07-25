@@ -9,7 +9,11 @@ body {
 }
 
 .second {
-    background: white;
+    padding: 50px 100px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .third {
@@ -49,6 +53,7 @@ ul {
 .hero {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -61,6 +66,7 @@ ul {
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    padding-top: 10px;
 }
 
 button {
@@ -70,4 +76,45 @@ button {
     text-align: center;
     border-radius: 4px;
     padding: 5px 20px 5px 20px;
+    margin-top: 10px;
+}
+
+/*ITEMS IN THE SECOND SECTION; NEED TO FIX ALIGNMENT*/
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-bottom: 20px;
+}
+
+.box-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 200px;
+    align-items: center;
+
+}
+.text {
+    font-size: 12px;
+    color: #1f2937;
+    max-width: 150px;
+}
+
+.box {
+    background: #FFFFFF;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
 }
