@@ -26,7 +26,10 @@ body {
 }
 
 .fourth {
-    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
 }
 
 /*ITEMS IN THE FIRST SECTION*/
@@ -60,6 +63,7 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 100px;
 }
 
 .hero-main {
@@ -74,7 +78,7 @@ ul {
     padding-top: 10px;
 }
 
-button {
+.button1 {
     background-color: #3882f6;
     color: #F9FAF8;
     border: none;
@@ -98,6 +102,7 @@ button {
     justify-content: center;
     align-content: center;
     flex-wrap: wrap;
+    gap: 30px;
 }
 
 .box-text {
@@ -109,7 +114,7 @@ button {
 
 }
 .text {
-    font-size: 12px;
+    font-size: 16px;
     color: #1f2937;
     max-width: 150px;
 }
@@ -131,4 +136,42 @@ p {
     font-weight: 100;
     color: #1f2937;
     justify-content: flex-start;
+}
+
+/*ITEMS IN THE FOURTH SECTION*/
+
+.cta-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #3882f6;
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    padding: 40px 100px 40px 100px;
+    width: 1000px;
+    height: 100px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9FAF8;
+}
+
+.cta-main {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.button2 {
+    display: flex;
+    flex-grow: 0; /*FIX BUTTON SIZE*/
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+    margin-top: 10px;
 }
