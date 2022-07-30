@@ -174,7 +174,6 @@ p {
     font-weight: bold;
 }
 
-/*FIX ALIGNMENT*/
 .button2 { 
     background-color: #3882f6;
     color: #F9FAF8;
@@ -182,4 +181,5 @@ p {
     text-align: center;
     border-radius: 4px;
     padding: 5px 20px 5px 20px;
+    margin: 10px;
 }
